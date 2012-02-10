@@ -1,6 +1,6 @@
 PURPOSE
-  Adds a custom holiday to the game to be used for granting +50% Xp server-wide on
-  every Saturday and Sunday.
+  Adds a custom holiday to the game to be used for granting a 50% server-wide
+  experience bonus every Saturday and Sunday.
 
 STATUS
   Working as of: https://github.com/TrinityCore/TrinityCore/commit/5365bd25fae59a6ae225534b779bd6c14779599a
@@ -9,7 +9,8 @@ DETAILS
   This patch will add HOLIDAY_CUSTOM_01 to an un-used Holidays.dbc slot number. This was
   a quick hack and does not currently update client calendars to show the holiday in effect.
   By default the holiday is active every Saturday and Sunday starting 2001-02-11 and all
-  characters will gain 50% more experience while the holiday is active.
+  characters will gain 50% more experience while the holiday is active. The current bonus
+  is hardcoded as "magic numbers" -- search and replace "1.5f" to modify to your liking.
 
 INSTALL
   01 : Apply custom_holiday.patch to TrinityCore folder.
