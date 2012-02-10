@@ -1,0 +1,1 @@
+INSERT INTO `tc_world`.`game_event` (`eventEntry`, `start_time`, `end_time`, `occurence`, `length`, `holiday`, `description`, `world_event`) VALUES ('65', '2012-02-11 00:00:00', '0000-00-00 00:00:00', '10080', '2880', '0', 'Weekend 50% Xp Bonus (HOLIDAY_CUSTOM_01)', '0');
